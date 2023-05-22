@@ -1,0 +1,102 @@
+.Lodging{
+    min-height: 90vh;
+}
+.box-presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px auto;
+    .box-lodging-about{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        row-gap: 5px;
+        .title-lodging{
+            padding: 0px;
+            margin: 0px;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 142.6%;
+        }
+        .location-lodging{
+            padding: 0px;
+            margin: 0px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 142.6%;
+        }
+    }
+    .box-profil-about{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        
+    }
+}
+.collapse-box{
+    display:flex;
+    flex-direction: row;
+    column-gap: 15px;
+    justify-content: space-between;
+    margin: auto;
+    .collapse-lodging{
+        flex-basis: 49%;
+    }
+    
+}
+
+.tags{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 20px;
+    .tag{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        
+        padding: 4px 10px;
+        background: #FF6060;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 142.6%;
+        /* identical to box height, or 20px */
+        text-align: center;
+        color: #FFFF
+    }
+}
+
+@media (max-width: 800px) {
+    .Lodging{
+        padding: 20px;
+    }
+    .box-presentation {
+        display: flex;
+        flex-direction: column;
+        .box-lodging-about {
+            .title-lodging{
+                text-align: start;
+                font-size: 18px;
+            }
+            .location-lodging{
+                font-size: 14px;
+            }
+        }
+        .box-profil-about{
+            padding-top: 15px;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+        }
+        } 
+    .tags{
+        .tag{
+            
+            font-size: 10px;
+        }
+    }  
+    .collapse-box{
+        flex-direction: column;
+    }
+}

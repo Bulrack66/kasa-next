@@ -1,0 +1,19 @@
+.section2{
+    .background2{
+        border-radius: 25px;
+        filter: brightness(0.5);
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    .section2{
+        .background2{
+            height: 223px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        margin: 0px 20px 10px;
+    }
+}

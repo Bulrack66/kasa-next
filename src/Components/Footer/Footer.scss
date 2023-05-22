@@ -1,0 +1,21 @@
+footer {
+    margin-top: auto;
+    background: #000000;
+    width: 100%;
+    *{
+        color: #FFFFFF;
+    }
+    .Footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 500;
+        img{
+            margin-top: 36px;
+            width: 90px;
+        }
+    }
+}

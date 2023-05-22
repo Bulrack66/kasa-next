@@ -1,0 +1,13 @@
+.About{
+    min-height: 95vh;
+    .collapse-about{
+        padding: 45px;
+    }
+}
+@media (max-width: 800px) {
+    .About{
+        .collapse-about{
+            padding: 0px 20px 15px;
+        }
+    }
+}

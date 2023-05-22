@@ -1,0 +1,38 @@
+.Banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    .Navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        text-decoration: none;
+        margin-left: 20px;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .sizing-img{
+        display: inline;
+        width: 150px;
+    }
+}
+
+@media (max-width: 800px) {
+    .Banner{
+        padding: 20px;
+        .Navbar{
+            width:160px;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        a{
+            font-size: 12px;
+        }
+        .sizing-img{
+            width: 100px;
+        }
+    }
+}
