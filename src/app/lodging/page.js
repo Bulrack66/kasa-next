@@ -13,7 +13,7 @@ const client = axios.create({
   baseURL: `http://localhost:4000/api/products` 
 });
 
-export default function Lodging({data, useParams}) {
+export default function Lodging({params, useParams}) {
 
 const {id} = useParams();
 const navigate = useNavigate();
